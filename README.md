@@ -180,7 +180,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-**Leonardo Sanches**
+**José Leon Bidigaray Sanches**
 - GitHub: [@LeonbSanches](https://github.com/LeonbSanches)
 
 ## 🤝 Contribuição
