@@ -1,0 +1,42 @@
+// Importar Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Estilos customizados
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.status-disponivel { color: #28a745; }
+.status-reservado { color: #ffc107; }
+.status-vendido { color: #dc3545; }
+.status-consignado { color: #17a2b8; }
+.status-manutencao { color: #6c757d; }
+
+.dashboard-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+}
+
+.dashboard-card .card-body {
+    padding: 1.5rem;
+}
+
+.dashboard-card .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
